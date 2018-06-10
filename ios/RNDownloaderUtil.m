@@ -1,8 +1,6 @@
 
 #import "RNDownloaderUtil.h"
 
-@implementation RNDownloaderUtil
-
 #if __has_include("TCBlobDownloader.h")
 #import "TCBlobDownloader.h"
 #else
