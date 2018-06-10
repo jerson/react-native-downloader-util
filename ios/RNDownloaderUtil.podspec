@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNDownloaderUtil"
   s.description  = <<-DESC
-                  RNDownloaderUtil single downloader for **iOS** using `TCBlobDownload` compatible with `react-native-fs`
+                  Single downloader for **iOS** using `TCBlobDownload` compatible with `react-native-fs`
                    DESC
   s.homepage     = "https://github.com/jerson/react-native-downloader-util"
   s.license      = "MIT"
