@@ -2,6 +2,13 @@ import { NativeEventEmitter, NativeModules, Platform } from "react-native";
 
 const { RNDownloaderUtil } = NativeModules;
 
+let jobId = 1;
+
+let getJobId = () => {
+  jobId += 1;
+  return jobId;
+};
+
 const TAG = "[DownloaderUtil]";
 export default class DownloaderUtil {
   static stopDownload(jobId) {
